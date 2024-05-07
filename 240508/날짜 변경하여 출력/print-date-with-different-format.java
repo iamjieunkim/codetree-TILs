@@ -8,7 +8,7 @@ public class Main {
         int y = sc.nextInt();
         int m = sc.nextInt();
         int d = sc.nextInt();
-        System.out.printf("%d-%d-%d",d,m,y);
+        System.out.printf("%d-%d-%d",m,d,y);
 
 
     }
