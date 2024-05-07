@@ -7,10 +7,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        int sum = a+b;
-        int mius = a-b;
-
-        System.out.printf("%.2f",sum/mius);
+        System.out.printf("%.2f",(a+b)/(a-b));
 
 
     }
