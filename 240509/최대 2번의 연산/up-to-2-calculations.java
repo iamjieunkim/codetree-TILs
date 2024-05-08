@@ -7,12 +7,15 @@ public class Main {
         int a = sc.nextInt();
         
         if(a%2==0){
-            System.out.println(a/2);
+            a/=2;
         }
         
         if(a%2==1){
-            System.out.println((a+1)/2);
+            a+=1;
+            a/=2;
         }
+
+        System.out.println(a);
         
     }
 }
