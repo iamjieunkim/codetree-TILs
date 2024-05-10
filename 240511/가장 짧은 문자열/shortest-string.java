@@ -15,6 +15,6 @@ public class Main {
         arr[2]=s3.length();
 
         Arrays.sort(arr);
-        System.out.println(arr[0]);
+        System.out.println(arr[2]-arr[0]);
     }
 }
