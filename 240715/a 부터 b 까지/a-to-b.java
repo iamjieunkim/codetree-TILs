@@ -8,7 +8,7 @@ public class Main {
         int n = a;
         
 
-        while(n<14){
+        while(n<b+1){
             if(n%2==1){
                 System.out.print(n+" ");
                 n*=2;
