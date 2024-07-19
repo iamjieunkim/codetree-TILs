@@ -4,10 +4,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int sum = 0;
+        int answer = 0;
 
         for(int i=1; i<=100; i++){
             sum+=i;
-            if(sum>=5){
+            if(sum>=n){
                 System.out.println(i);
                 break;
             }
